@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yods.StackFXMLController">
+   <children>
+      <Button fx:id="backBut" layoutX="14.0" layoutY="401.0" mnemonicParsing="false" onAction="#ClickBack" text="Ana Ekrana Dön" />
+      <Button fx:id="popB" layoutX="434.0" layoutY="386.0" mnemonicParsing="false" onAction="#ClickPop" text="POP" />
+      <Button fx:id="pushB" layoutX="513.0" layoutY="386.0" mnemonicParsing="false" onAction="#ClickPush" text="PUSH" />
+      <Label alignment="TOP_CENTER" layoutX="414.0" layoutY="32.0" prefHeight="54.0" prefWidth="157.0" text="STACK">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="st0" layoutX="475.0" layoutY="317.0" text=" " />
+      <Label fx:id="st1" layoutX="475.0" layoutY="296.0" text=" " />
+      <Label fx:id="st3" layoutX="475.0" layoutY="254.0" text=" " />
+      <Label fx:id="st2" layoutX="475.0" layoutY="275.0" text=" " />
+      <Label fx:id="st5" layoutX="475.0" layoutY="212.0" text=" " />
+      <Label fx:id="st4" layoutX="475.0" layoutY="233.0" text=" " />
+      <Label fx:id="st7" layoutX="475.0" layoutY="170.0" text=" " />
+      <Label fx:id="st6" layoutX="475.0" layoutY="191.0" text=" " />
+      <Label fx:id="st9" layoutX="475.0" layoutY="128.0" text=" " />
+      <Label fx:id="st8" layoutX="475.0" layoutY="149.0" text=" " />
+      <Label fx:id="st11" layoutX="475.0" layoutY="86.0" prefHeight="21.0" prefWidth="35.0" text=" " />
+      <Label fx:id="st10" layoutX="475.0" layoutY="107.0" text=" " />
+      <TextField fx:id="textStack" layoutX="428.0" layoutY="345.0" prefHeight="31.0" prefWidth="146.0" />
+      <Label fx:id="warning" layoutX="45.0" layoutY="290.0" prefHeight="84.0" prefWidth="335.0" text="Hoşgeldiniz. Yazdığınız herhangi bir şeyi Push butonu ile Stack'e ekleyip, Pop butonu ile silebilirsiniz." wrapText="true" />
+      <Label alignment="TOP_CENTER" layoutX="86.0" layoutY="32.0" prefHeight="54.0" prefWidth="214.0" text="HUFFMAN">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textHuffman" layoutX="84.0" layoutY="102.0" prefHeight="31.0" prefWidth="214.0" />
+      <Button layoutX="140.0" layoutY="155.0" mnemonicParsing="false" onAction="#ClickHuffman" text="ENCODE" />
+      <Label fx:id="warninHuff" layoutX="45.0" layoutY="202.0" prefHeight="84.0" prefWidth="335.0" text="Huffman kodlaması yapmak için herhangi bir metin giriniz." wrapText="true" />
+      <Button fx:id="nextPage" layoutX="150.0" layoutY="401.0" mnemonicParsing="false" onAction="#ClickNextPage" text="Sonraki Sayfa" />
+   </children>
+</Pane>

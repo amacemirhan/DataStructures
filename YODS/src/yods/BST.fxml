@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yods.BSTController">
+   <children>
+      <Label alignment="CENTER" layoutX="118.0" layoutY="14.0" prefHeight="70.0" prefWidth="365.0" text="Binary Search Tree">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="addBST" layoutX="371.0" layoutY="84.0" mnemonicParsing="false" onAction="#ClickAdd" text="Ekle" />
+      <TextField fx:id="textBST" layoutX="162.0" layoutY="84.0" />
+      <Label fx:id="AnaBilgi" layoutX="77.0" layoutY="197.0" prefHeight="47.0" prefWidth="430.0" text="Hoşgeldiniz." />
+      <Button fx:id="postorder" layoutX="144.0" layoutY="136.0" mnemonicParsing="false" onAction="#ClickPostOrder" text="PostOrder" />
+      <Button fx:id="preorder" layoutX="257.0" layoutY="136.0" mnemonicParsing="false" onAction="#ClickPreOrder" text="PreOrder" />
+      <Button fx:id="inorder" layoutX="371.0" layoutY="136.0" mnemonicParsing="false" onAction="#ClickInOrder" text="InOrder" />
+      <Label fx:id="GezinmeLabel" layoutX="188.0" layoutY="325.0" text="Null" />
+      <Button fx:id="Left" layoutX="270.0" layoutY="347.0" mnemonicParsing="false" onAction="#ClickLeft" text="Left" />
+      <Button fx:id="Right" layoutX="348.0" layoutY="347.0" mnemonicParsing="false" onAction="#ClickRight" text="Right" />
+      <Button fx:id="Parent" layoutX="304.0" layoutY="304.0" mnemonicParsing="false" onAction="#ClickParent" text="Root" />
+      <Button fx:id="previousPage" layoutX="14.0" layoutY="396.0" mnemonicParsing="false" onAction="#ClickpreviousPage" text="Önceki Sayfa" />
+      <Button fx:id="nextPage" layoutX="136.0" layoutY="396.0" mnemonicParsing="false" onAction="#ClicknextPage" text="Sonraki Sayfa" />
+      <Button fx:id="deleteBST" layoutX="425.0" layoutY="84.0" mnemonicParsing="false" onAction="#ClickDel" text="Sil" />
+   </children>
+</Pane>

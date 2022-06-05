@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yods.FXMLBitirmeProjesiController">
+   <children>
+      <TextField fx:id="ogrIsimField" layoutX="238.0" layoutY="129.0" prefHeight="39.0" prefWidth="193.0" />
+      <Button fx:id="ekleButton" layoutX="196.0" layoutY="198.0" mnemonicParsing="false" onAction="#enqueue" prefHeight="33.0" prefWidth="136.0" text="Kuyruğa Ekle" />
+      <Button fx:id="cikarButton" layoutX="363.0" layoutY="198.0" mnemonicParsing="false" onAction="#dequeue" prefHeight="33.0" prefWidth="136.0" text="Kuyruktan Çıkar" />
+      <Button fx:id="geri_buton" layoutX="21.0" layoutY="452.0" mnemonicParsing="false" onAction="#geriDon2" prefHeight="33.0" prefWidth="124.0" text="Önceki Sayfa" />
+      <Label fx:id="doluMuLabel" layoutX="492.0" layoutY="125.0" prefHeight="47.0" prefWidth="136.0" textFill="#d34420">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu1" layoutX="33.0" layoutY="314.0" prefHeight="33.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu9" layoutX="571.0" layoutY="314.0" prefHeight="33.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu2" layoutX="95.0" layoutY="314.0" prefHeight="33.0" prefWidth="52.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu10" layoutX="634.0" layoutY="314.0" prefHeight="33.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu3" layoutX="168.0" layoutY="314.0" prefHeight="33.0" prefWidth="52.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu4" layoutX="234.0" layoutY="311.0" prefHeight="39.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu5" layoutX="304.0" layoutY="311.0" prefHeight="39.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu8" layoutX="511.0" layoutY="314.0" prefHeight="33.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu7" layoutX="440.0" layoutY="314.0" prefHeight="33.0" prefWidth="52.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qu6" layoutX="373.0" layoutY="314.0" prefHeight="33.0" prefWidth="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnMain" layoutX="158.0" layoutY="452.0" mnemonicParsing="false" onAction="#ReturnAna" prefHeight="33.0" prefWidth="124.0" text="Ana Sayfa" />
+      <Label alignment="TOP_CENTER" layoutX="222.0" layoutY="25.0" prefHeight="55.0" prefWidth="165.0" text="Queue">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
